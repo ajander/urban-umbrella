@@ -8,4 +8,4 @@
 layout: home
 ---
 
-Welcome to my project blog! This site is under construction. Please check back soon.
+Welcome to my project blog! Posts are organized by project.
