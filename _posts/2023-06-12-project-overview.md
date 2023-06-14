@@ -3,7 +3,7 @@ layout: post
 title: "Project Overview"
 subtitle: "Bird Behavior App"
 date: 2023-06-12
-category: "Bird Behavior"
+category: "Bird Behavior App"
 ---
 
 ### Goal
