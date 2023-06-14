@@ -6,7 +6,7 @@ date: 2023-06-12
 category: "Bird Behavior App"
 ---
 
-<img src="/urban-umbrella/assets/finch_on_feeder.jpg" alt="finch on a bird feeder" width="200>
+<img src="urban-umbrella/assets/finch_on_feeder.jpg" alt="finch on a bird feeder" width="200>
 
 ![finch on a bird feeder](/urban-umbrella/assets/finch_on_feeder.jpg)
 
