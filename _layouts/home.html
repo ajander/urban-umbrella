@@ -9,8 +9,8 @@ layout: base
   
   {% for category in site.categories %}
   <h2 id="{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}
+  <ul class="post-list">
+    {%- assign pages_list = category[1] -%}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {% for post in pages_list %}
       <li>
