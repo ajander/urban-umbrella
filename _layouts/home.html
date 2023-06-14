@@ -6,6 +6,10 @@ layout: base
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+  
+  {%- for cat in site.categories -%}
+  <h2>cat</h2>
+  {%- endfor -%}
 
   {{ content }}
 
