@@ -8,4 +8,4 @@
 layout: home
 ---
 
-Welcome to my project blog! Posts are organized by project.
+Welcome to my blog! Posts are organized by project.
