@@ -19,11 +19,11 @@ The amount of food eaten in a given time period will be measured by the change i
 * What other factors affect feeding rates, e.g., weather, type of food offered?
 * Is it possible to detect when an individual bird lands and therefore count and possibly identify visitors?
 
-## Hardware
+### Hardware
 
 The birdfeeder will hang from a load cell that will measure its weight. The load cell connects to a load cell amplifier, which connects to a WiFi microcontroller to send the data to the cloud.
 
-## Software
+### Software
 
 Planned software components are:
 * AWS for data ingestion, processing, and storage. Possible pipelines:
