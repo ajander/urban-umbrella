@@ -56,5 +56,5 @@ header_pages:
 include: ['_categories']
 
 categories:
-  - "Bird Behavior"
+  - "Bird Behavior App"
   - tech
