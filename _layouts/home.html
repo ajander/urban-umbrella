@@ -18,18 +18,18 @@ layout: base
 
   {%- if posts.size > 0 -%}
   {% for category in site.categories %}
-  <h2 id="{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}</h2>
+  <h1 id="{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}</h1>
   <ul class="post-list">
     {%- assign pages_list = category[1] -%}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {% for post in pages_list %}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h4>
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h4>
+        </h2>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
