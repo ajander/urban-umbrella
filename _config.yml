@@ -53,8 +53,6 @@ header_pages:
 #
 # show_excerpts: false
 
-include: ['_categories']
-
 categories:
   - "Bird Behavior App"
   - tech
