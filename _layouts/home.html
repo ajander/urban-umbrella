@@ -12,9 +12,17 @@ layout: base
   <ul>
     {% assign pages_list = category[1] %}
     {% for post in pages_list %}
-      {% if post.title != null %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
-      {% endif %}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
     {% endfor %}
     {% assign pages_list = nil %}
   </ul>
