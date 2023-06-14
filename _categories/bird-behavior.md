@@ -3,7 +3,7 @@ layout: category
 title: Bird Behavior App
 description: For automating the boring tasks.
 permalink: /bird-behavior/
-category_name: Bird Behavior
+category_name: "Bird Behavior"
 ---
 
 # Project Overview
