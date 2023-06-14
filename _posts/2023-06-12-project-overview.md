@@ -6,6 +6,10 @@ date: 2023-06-12
 category: "Bird Behavior App"
 ---
 
+<img src="assets/finch_on_feeder.jpg" alt="finch">
+
+![finch on a bird feeder](/urban-umbrella/assets/finch_on_feeder.jpg)
+
 ### Goal
 To measure the rate at which the birds in my backyard are eating from the bird feeder and to display the data in a web app. 
 
